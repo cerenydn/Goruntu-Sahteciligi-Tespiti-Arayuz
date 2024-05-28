@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    margin-top: 0;
+  }
+  
+  .menu-toggle {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  h1{
+    margin-left: 14px;
+    margin-top: -5px;
+  }
+  
+  
+  .menu {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -25px;
+  }
+  .menu li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .menu li a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
